@@ -1,0 +1,15 @@
+{
+  "name": "Jira Quick Access",
+  "description": "Go quickly to a Jira issue",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+      "default_title": "Go quickly to a Jira issue",
+      "default_icon": "favicon.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "icons": { "128": "favicon.png" }
+}
