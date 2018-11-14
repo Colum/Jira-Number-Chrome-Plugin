@@ -6,8 +6,9 @@
 
 function click(e) {
   var issueNum = document.getElementById("inputField").value;
+  var worklog = document.getElementById("worklog").value;
   chrome.tabs.update({
-     url: "https://plurilock.atlassian.net/browse/BIONG-" + issueNum
+     url: "https://plurilock.atlassian.net/browse/" + worklog + "-" + issueNum
 });
   window.close();
 }
