@@ -8,7 +8,7 @@ function click(e) {
   var issueNum = document.getElementById("inputField").value;
   var worklog = document.getElementById("worklog").value;
   chrome.tabs.update({
-     url: "https://plurilock.atlassian.net/browse/" + worklog + "-" + issueNum
+     url: "https://mycompany.pattern.ca/browse/" + worklog + "-" + issueNum
 });
   window.close();
 }
